@@ -1,7 +1,7 @@
 # JustAModal
-Don't worry - it's just another Modal library
+##Don't worry - it's just another Modal library
 
-### No, it's not just another Modal library
+### No, it's not just another Modal library!
 Here's why:
 1. It's just 1.23 KB (Yeah, go check for yourself!)
 2. It helps you add simple Modals to your website in notime!
