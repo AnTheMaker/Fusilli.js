@@ -61,6 +61,9 @@ That's not even a full question! Learn english, stranger
 #### Why did you create another damn Modal library?
 Because I *can*. No, jokes aside for a second: I wanted to add a simple info-modal to my current project ([myFront.page](https://myfront.page)) and didn't find a good, simple-to-use and lightweight library...
 
+#### Ahh, the content of the Modal appears for a second wehn loading my page!
+Don't worry! Just add `.modal{ display: none; }` to your CSS and you're good to go!
+
 #### How do I use it??
 Scroll to the top of this page and follow the 3 steps! If you still didn't get it, open up an issue.
 
