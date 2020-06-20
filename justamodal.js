@@ -43,17 +43,21 @@ const modalStyles = `
 }
 `;
 
-var modalStyleSheet = document.createElement('style');
-modalStyleSheet.type = 'text/css';
-modalStyleSheet.innerText = modalStyles;
-document.head.appendChild(modalStyleSheet);
+window.addEventListener('load', function(){
+  var modalStyleSheet = document.createElement('style');
+  modalStyleSheet.type = 'text/css';
+  modalStyleSheet.innerText = modalStyles;
+  document.head.appendChild(modalStyleSheet);
 
-var modals = [...document.getElementsByClassName('modal')];
-modals.forEach(function(modal){
-  modal.querySelector('.modal_box').insertAdjacentHTML('afterbegin', `<div id="close_`+modal.id+`" class="modal_close">&times;</div>`);
-  document.getElementById('close_'+modal.id).addEventListener('click', function(){
-    console.log('close');
-    closeModal(modal);
+  var modals = [...document.getElementsByClassName('modal')];
+  modals.forEach(function(modal){
+    modal.querySelector('.modal_box').insertAdjacentHTML('afterbegin', `<div id="close_`+modal.id+`" class="modal_close">&times;</div>`);
+    document.getElementById('close_'+modal.id).addEventListener('click', function(){
+      closeModal(modal);
+    });
+    document.getElementById(modal.id).addEventListener('click', function(){
+      closeModal(modal);
+    });
   });
 });
 
