@@ -3,7 +3,7 @@
 
 ### No, it's not just another Modal library!
 Here's why:
-1. It's just 1.23 KB (Yeah, go check for yourself!)
+1. It's just 1.3 KB (Yeah, go check for yourself!)
 2. It helps you add simple Modals to your website in notime!
 3. It can open and close Modals. That's it - no fancy animations, styles, etc. - as minimal as possible
 4. You can style it and extend it however you like!
