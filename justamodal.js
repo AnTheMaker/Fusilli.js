@@ -41,7 +41,7 @@ const modalStyles = `
   font-size: 170%;
   z-index: 999;
 }
-`
+`;
 
 var modalStyleSheet = document.createElement('style');
 modalStyleSheet.type = 'text/css';
