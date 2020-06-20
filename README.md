@@ -49,5 +49,26 @@ This will close the Modal with the id "modal_1" if it's currently opened
 ## FAQs
 Every `README` need a FAQ section. Just kidding, I was simply bored.
 
-#### Question 1
-Answer
+#### Why?
+That's not even a full question! Learn english, stranger
+
+#### Why did you create another damn Modal library?
+Because I *can*. NO, jokes aside for a second: I wanted to add a simple info-modal to my current project ([myFront.page](https://myfront.page)) and didn't find a good, simple-to-use and lightweight library...
+
+#### How do I use it??
+Scroll to the top of this page and follow the 3 steps! If you still didn't get it, open up an issue.
+
+#### I can't count to 3
+Go to school
+
+#### It doesn't work!
+I tested it a bit and it worked fine... If it shouldn't work for you, please go ahead and open up an issue!
+
+#### But it can't do X
+This library's focus is simplicity. It's main goal is to be lightweight and minimal. I won't add fancy animations, trigger-handlers or stuff like that. Please look for a different Modal library if you need all that stuff.
+
+#### Hello
+Thta's not a question. What's up?
+
+#### I'm bored
+I know. Otherwise you wouldn't scroll  till the very end of a `README` file  of a random JavaScript Modal library created by a 17yo dude. Get a life!
