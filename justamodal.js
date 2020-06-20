@@ -57,11 +57,10 @@ window.addEventListener('load', function(){
       closeModal(modal);
     });
     modal.addEventListener('click', function(e){
-      if(e.target !== this) return;
       closeModal(modal);
     });
     modal_box.addEventListener('click', function(e){
-      if(e.target !== this) return;
+      e.stopPropagation();
     });
   });
 });
