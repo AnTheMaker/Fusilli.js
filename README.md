@@ -5,7 +5,7 @@
 Here's why:
 1. It's just 1.3 KB (Yeah, go check for yourself!)
 2. It helps you add simple Modals to your website in notime!
-3. It can open and close Modals. That's it - no fancy animations, styles, etc. - as minimal as possible
+3. It can open and close Modals. That's it - no fancy animations, styles, etc. - it's as minimal as possible!
 4. You can style it and extend it however you like!
 
 Demo: [anthemaker.github.io/JustAModal](https://anthemaker.github.io/JustAModal/)
@@ -74,7 +74,7 @@ I tested it a bit and it worked fine... If it doesn't work for you, please go ah
 This library's focus is simplicity. It's main goal is to be lightweight and minimal. I won't add fancy animations, trigger-handlers or stuff like that. Please look for a different Modal library if you need all that stuff.
 
 #### Hello
-Thta's not a question. What's up?
+That's not a question. What's up?
 
 #### I'm bored
 I know. Otherwise you wouldn't scroll  till the very end of a `README` file  of a random JavaScript Modal library created by a 17yo dude. Get a life :P
