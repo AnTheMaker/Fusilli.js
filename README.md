@@ -38,12 +38,16 @@ Boom, that's it! Simple, isn't it?
 
 ### openModal(element)
 Guess what this function does! Correct, it opens up a Modal!
+
 Example: `openModal(document.getElementById('modal_1'));`
+
 This will open up the Modal with the id "modal_1"
 
 ### closeModal(element)
 This closes a given Modal! WOW!
+
 Example: `closeModal(document.getElementById('modal_1'));`
+
 This will close the Modal with the id "modal_1" if it's currently opened
 
 ## FAQs
