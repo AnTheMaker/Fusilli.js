@@ -1,5 +1,5 @@
 # JustAModal
-##Don't worry - it's just another Modal library
+## Don't worry - it's just another Modal library
 
 ### No, it's not just another Modal library!
 Here's why:
