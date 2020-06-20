@@ -1,5 +1,5 @@
 # JustAModal
-## Don't worry - it's just another Modal library
+## Don't worry - it's just another Modal (popup) library
 
 ### No, it's not just another Modal library!
 Here's why:
@@ -7,6 +7,8 @@ Here's why:
 2. It helps you add simple Modals to your website in notime!
 3. It can open and close Modals. That's it - no fancy animations, styles, etc. - as minimal as possible
 4. You can style it and extend it however you like!
+
+Demo: [anthemaker.github.io/JustAModal](https://anthemaker.github.io/JustAModal/)
 
 ## But how do I use it anyways?
 You can count from 1 to 3, right? Because it's really that simple!
@@ -75,4 +77,4 @@ This library's focus is simplicity. It's main goal is to be lightweight and mini
 Thta's not a question. What's up?
 
 #### I'm bored
-I know. Otherwise you wouldn't scroll  till the very end of a `README` file  of a random JavaScript Modal library created by a 17yo dude. Get a life!
+I know. Otherwise you wouldn't scroll  till the very end of a `README` file  of a random JavaScript Modal library created by a 17yo dude. Get a life :P
