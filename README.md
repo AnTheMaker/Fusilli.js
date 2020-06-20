@@ -68,7 +68,7 @@ Scroll to the top of this page and follow the 3 steps! If you still didn't get i
 Go to school
 
 #### It doesn't work!
-I tested it a bit and it worked fine... If it shouldn't work for you, please go ahead and open up an issue!
+I tested it a bit and it worked fine... If it doesn't work for you, please go ahead and open up an issue!
 
 #### But it can't do X
 This library's focus is simplicity. It's main goal is to be lightweight and minimal. I won't add fancy animations, trigger-handlers or stuff like that. Please look for a different Modal library if you need all that stuff.
