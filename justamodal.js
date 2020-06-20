@@ -12,6 +12,7 @@ const modalStyles = `
   justify-content: center;
   align-items: center;
   user-select: none;
+  pointer-events: none;
 }
 .modal.open{
   display: flex;
@@ -50,13 +51,17 @@ window.addEventListener('load', function(){
 
   var modals = [...document.getElementsByClassName('modal')];
   modals.forEach(function(modal){
-    modal.querySelector('.modal_box').insertAdjacentHTML('afterbegin', `<div id="close_`+modal.id+`" class="modal_close">&times;</div>`);
+    modal_box = modal.querySelector('.modal_box');
+    madal_box.insertAdjacentHTML('afterbegin', `<div id="close_`+modal.id+`" class="modal_close">&times;</div>`);
     document.getElementById('close_'+modal.id).addEventListener('click', function(){
       closeModal(modal);
     });
-    document.getElementById(modal.id).addEventListener('click', function(e){
+    modal.addEventListener('click', function(e){
       if(e.target !== this) return;
       closeModal(modal);
+    });
+    modal_box.addEventListener('click', function(e){
+      if(e.target !== this) return;
     });
   });
 });
