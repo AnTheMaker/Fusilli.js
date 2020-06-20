@@ -57,7 +57,7 @@ Every `README` need a FAQ section. Just kidding, I was simply bored.
 That's not even a full question! Learn english, stranger
 
 #### Why did you create another damn Modal library?
-Because I *can*. NO, jokes aside for a second: I wanted to add a simple info-modal to my current project ([myFront.page](https://myfront.page)) and didn't find a good, simple-to-use and lightweight library...
+Because I *can*. No, jokes aside for a second: I wanted to add a simple info-modal to my current project ([myFront.page](https://myfront.page)) and didn't find a good, simple-to-use and lightweight library...
 
 #### How do I use it??
 Scroll to the top of this page and follow the 3 steps! If you still didn't get it, open up an issue.
