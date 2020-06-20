@@ -12,7 +12,6 @@ const modalStyles = `
   justify-content: center;
   align-items: center;
   user-select: none;
-  pointer-events: none;
 }
 .modal.open{
   display: flex;
@@ -55,7 +54,8 @@ window.addEventListener('load', function(){
     document.getElementById('close_'+modal.id).addEventListener('click', function(){
       closeModal(modal);
     });
-    document.getElementById(modal.id).addEventListener('click', function(){
+    document.getElementById(modal.id).addEventListener('click', function(e){
+      if(e.target !== this) return;
       closeModal(modal);
     });
   });
