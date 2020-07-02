@@ -1,4 +1,4 @@
-/* JustAModal by An - github.com/AnTheMaker/JustAModal */
+/* Fusilli.js by An - github.com/AnTheMaker/Fusilli.js */
 
 const modalStyles = `
 .modal{
