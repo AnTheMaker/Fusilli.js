@@ -12,6 +12,7 @@ const modalStyles = `
   justify-content: center;
   align-items: center;
   user-select: none;
+  z-index: 999;
 }
 .modal.open{
   display: flex;
