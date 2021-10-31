@@ -1,17 +1,14 @@
 # Fusilli.js
-## a delicious Modal (popup) library
+## A delicious Modal (popup) library
 
 ### Not your average popup library.
 Here's why:
 1. It's just 1.3 KB (Yeah, go check for yourself!)
-2. It helps you add simple Modals to your website in notime!
+2. It helps you add simple Modals to your website in no time!
 3. It can open and close Modals. That's it - no fancy animations, styles, etc. - it's as minimal as possible!
 4. You can style it and extend it however you like!
 
-Demo: [anthemaker.github.io/Fusilli.js](https://anthemaker.github.io/Fusilli.js/)
-
-## But how do I use it anyways?
-You can count from 1 to 3, right? Because it's really that simple!
+Demo: [fusilli.js.org](https://fusilli.js.org)
 
 **1. Add fusilli.js to your site**
 ```
@@ -55,35 +52,23 @@ This will close the Modal with the id "modal_1" if it's currently opened
 ## FAQs
 Every `README` need a FAQ section. Just kidding, I was simply bored.
 
-#### Why?
-That's not even a full question! Learn english, stranger
-
 #### Why did you create another damn Modal library?
-Because I *can*. No, jokes aside for a second: I wanted to add a simple info-modal to my current project ([myFront.page](https://myfront.page)) and didn't find a good, simple-to-use and lightweight library...
+Because I *can*. No, jokes aside for a second: I wanted to add a simple info-modal to one of my projects ([myFrontpage](https://myfront.page)) and didn't find a good, simple-to-use and lightweight library...
 
-#### Ahh, the content of the Modal appears for a second when loading my page!
-Don't worry! Just add `.modal{ display: none; }` to your CSS and you're good to go!
+#### Oh no, the content of the Modal appears for a second when loading my page!
+Don't worry! Just add `.modal{ display: none; }` to your CSS and you're good to go! That will prevent the modal from showing up before the `fusilli.js` script is loaded. Fusilli.js will take care of the rest!
 
 #### How do I use it??
-Scroll to the top of this page and follow the 3 steps! If you still didn't get it, open up an issue.
-
-#### I can't count to 3
-Go to school
+Scroll to the top of this page and follow the 3 steps! If you still need help, open up an issue.
 
 #### It doesn't work!
-I tested it a bit and it worked fine... If it doesn't work for you, please go ahead and open up an issue!
+I tested it a bit and it worked fine... If it doesn't work for you, please go ahead and open up an issue with as many details as possible!
 
-#### But it can't do X
-This library's focus is simplicity. It's main goal is to be lightweight and minimal. I won't add fancy animations, trigger-handlers or stuff like that. Please look for a different Modal library if you need all that stuff.
+#### But it can't do [insert advanced features here]
+This library focuses on simplicity. Its main goal is to be as lightweight and minimal as possible. I won't add fancy animations, trigger-handlers or stuff like that. Please look for a different Modal library if you need all of this.
 
 ### What does "Fusilli" mean?
 Hey, respect the pasta!
 
 ### Why is this popup library named after the best pasta in the world?
-I guess I was hungry
-
-#### Hello
-That's not a question. What's up?
-
-#### I'm bored
-I know. Otherwise you wouldn't scroll  till the very end of a `README` file  of a random JavaScript Modal library created by a 17yo dude. Get a life :P
+I guess I was hungry, sorry about that.
