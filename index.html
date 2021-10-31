@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <title>Fusilli.js &mdash; The tiniest JavaScript popup library</title>
+  
+  <!-- Meta tags, for that cool link preview on social media -->
   <meta name="description" content="A small and lightweight JavaScript modal/popup libraray.">
   <meta itemprop="name" content="Fusilli.js &mdash; The tiniest JavaScript popup library">
   <meta itemprop="description" content="A small and lightweight JavaScript modal/popup libraray.">
@@ -17,12 +21,12 @@
   <meta name="twitter:description" content="A small and lightweight JavaScript modal/popup libraray.">
   <meta name="twitter:image" content="https://repository-images.githubusercontent.com/273712844/3a0bfa80-bc5f-11ea-817a-d241d4abcff7">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.min.css">
+  
+  <!-- Prevent showing the modal while the page is loading -->
   <style> .modal{ display: none; } </style>
 </head>
 <body onload="openModal(document.getElementById('modal_1'));">
-  
   <img src="https://repository-images.githubusercontent.com/273712844/3a0bfa80-bc5f-11ea-817a-d241d4abcff7" alt="Fusilli.js" loading="lazy">
   <br><br>
   <button onclick="openModal(document.getElementById('modal_1'));">Open sesame!</button>
@@ -36,6 +40,7 @@
     </div>
   </div>
 
+  <!-- The *magical* script -->
   <script src="fusilli.min.js"></script>
 </body>
 </html>
