@@ -18,7 +18,7 @@ You can use the jsdelivr CDN or host it yourself!
 
 **2. Add a Modal to your site!**
 ```
-<div id="modal_1" class="modal" aria-hidden="true">
+<div id="modal_1" class="modal" aria-hidden="true" aria-modal="true" tabindex="-1">
   <div class="modal_box">
     Look ma, I made a Modal!
   </div>
