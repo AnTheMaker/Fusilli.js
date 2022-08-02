@@ -1,4 +1,4 @@
-/* Fusilli.js by An - github.com/AnTheMaker/Fusilli.js */
+/* Fusilli.js by An - Distributed under MIT License - github.com/AnTheMaker/Fusilli.js */
 
 const modalStyles = `
 .modal{
